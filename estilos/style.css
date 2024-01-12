@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --font-principal: Inter, Arial, Helvetica, sans-serif;
+    --cor1: #824DDB;
+    --cor2: #A31ADC;
+    --cor3: #534DDB;
+    --cor4: #4D74DB;
+    --cor5: #DB4DD4;
+}
+
+body {
+    font-family: var(--font-principal);
+}
+
+header {
+    background-color: var(--cor1);
+    padding: 8vh;
+    text-align: center;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.415);
+}
+
+header h1 {
+    font-variant: small-caps;
+    max-width: 500px;
+    margin: auto;
+    padding: 0px;
+    color: white;
+}
+
+header p {
+    max-width: 500px;
+    margin: auto;
+}
+
+main {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.294);
+    background-color: var(--cor4);
+    max-width: 800px;
+    height: 100vh;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+section#metas {
+    display: flex;
+}
+
+.coluna {
+    flex: 1;
+    padding: 20px;
+    margin: 0px;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: square;
+    font-weight: 400;
+}
